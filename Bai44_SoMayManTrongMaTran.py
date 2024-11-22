@@ -8,7 +8,6 @@ def main():
     fmax = max(arr)
     fmin = min(arr)
     f = fmax - fmin
-    # print(arr)  
     check = False
     ans = []
     while f in arr: 
@@ -16,7 +15,6 @@ def main():
         v1 = i // m
         v2 = i - m * v1
         ans.append(f'Vi tri [{v1}][{v2}]')
-        # print(i, v1, m, m * v1)
         check = True
         arr[i] = None
 
